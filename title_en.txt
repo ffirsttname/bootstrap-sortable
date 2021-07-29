@@ -3,17 +3,10 @@
         { "name": "name1", "name2": "name2"},
         { "name": "name1", "name2": "name2" },
    		],
-                
-                
-                
-                
-                
-                
+     
                 
               columns: [
-                { title:"Title1",data: "name" },
-                { title:"Title2",data: "name2" },
-      
-              ],
+                { title:"Title1",data: "name" },{ title:"Title2",data: "name2" },
+                    ],
 
 }
