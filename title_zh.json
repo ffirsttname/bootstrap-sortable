@@ -1,0 +1,5 @@
+ var dataSet1 = 
+[
+        { "name": "How to DataTables", "name2": "123"},
+        { "name": "How to Custom Render", "name2": "122" },
+   			 ];
