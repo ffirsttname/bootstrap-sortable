@@ -1,4 +1,8 @@
-# bootstrap-sortable-demo
-原link: https://github.com/Westsyan/bootstrap-advanced-sortable
-<br/>不提供任何技術支援
-<br/>只係設置外連用
+文字對應目錄
+
+
+<h2>英</h2>
+<b>title</b>
+
+
+<h2>英->中</h2>
