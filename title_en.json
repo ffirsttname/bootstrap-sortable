@@ -1,6 +1,6 @@
 {
   "responseData": {
-    "headings": [
+    "headings_en": [
       {
         "title": "Name",
         "data": "name"
@@ -26,7 +26,7 @@
         "data": "age"
       }
     ],
-    "body": [
+    "body_en": [
       {
         "name": "Tiger Nixon",
         "position": "System Architect",
