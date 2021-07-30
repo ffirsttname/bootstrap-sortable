@@ -44,7 +44,7 @@
         "age": "24"
       },
       {
-        "name": "Jonas Alexander",
+        "name": body_name,
         "position": "Developer",
         "salary": "$86,500",
         "start_date": "2010/07/14",
