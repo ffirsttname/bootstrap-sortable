@@ -2,64 +2,37 @@
   "tableData": {
     "body": [
       {
-        "name": "Tiger Nixon",
-        "position": "System Architect",
-        "salary": "$320,800",
-        "start_date": "2011/04/25",
-        "office": "Edinburgh",
-        "age": "23"
+        "brand": "Tiger Nixon",
+        "model": "System Architect",
+        "cpu": "$320,800",
+        "display_card": "2011/04/25",
+        "ram": "Edinburgh",
+        "storage": "23"
       },
-      {
-        "name": "Lael Greer",
-        "position": "Systems Administrator",
-        "salary": "$103,500",
-        "start_date": "2009/02/27",
-        "office": "London",
-        "age": "24"
-      },
-      {
-        "name": "Jonas Alexander",
-        "position": "Developer",
-        "salary": "$86,500",
-        "start_date": "2010/07/14",
-        "office": "San Francisco",
-        "age": "54"
-      },
-      {
-        "name": "Shad Decker",
-        "position": "Regional Director",
-        "salary": "$183,000",
-        "start_date": "2008/11/13",
-        "office": "Edinburgh",
-        "age": "43"
-      }
+     
     ],
     
    "headings": [
       {
-        "title": "Na11me",
-        "data": "name"
+        "title": "Brand",
+        "data": "brand"
       },
       {
-        "title": "Posi11tion",
-        "data": "position"
+        "title": "Model",
+        "data": "model"
       },
       {
-        "title": "Sala11ry",
-        "data": "salary"
+        "title": "Processor",
+        "data": "cpu"
       },
       {
-        "title": "111Start Date",
-        "data": "start_date"
+        "title": "Processor",
+        "data": "display_card"
       },
       {
-        "title": "11Office",
-        "data": "office"
+        "title": "Memory",
+        "data": "ram"
       },
-      {
-        "title": "1Age",
-        "data": "age"
-      }
     ],
   }
 }
