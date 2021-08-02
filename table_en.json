@@ -2,33 +2,41 @@
   "tableData": {
     "body": [
       {
-        "brand": "Tiger Nixon",
-   
+        "name": "Tiger Nixon",
+        "position": "System Architect",
+        "salary": "$320,800",
+        "start_date": "2011/04/25",
+        "office": "Edinburgh",
+        "age": "23"
       },
-     
+      
     ],
     
    "headings": [
       {
-        "title": "Brand",
-        "data": "brand"
+        "title": "Na11me",
+        "data": "name"
       },
       {
-        "title": "Model",
-        "data": "model"
+        "title": "Posi11tion",
+        "data": "position"
       },
       {
-        "title": "Processor",
-        "data": "cpu"
+        "title": "Sala11ry",
+        "data": "salary"
       },
       {
-        "title": "Processor",
-        "data": "display_card"
+        "title": "111Start Date",
+        "data": "start_date"
       },
       {
-        "title": "Memory",
-        "data": "ram"
+        "title": "11Office",
+        "data": "office"
       },
+      {
+        "title": "1Age",
+        "data": "age"
+      }
     ],
   }
 }
