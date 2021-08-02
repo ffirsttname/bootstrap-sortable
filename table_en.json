@@ -1,34 +1,7 @@
 {
   "tableData": {
     
-    "headings": [
-      {
-        "title": "Na11me",
-        "data": "name"
-      },
-      {
-        "title": "Posi11tion",
-        "data": "position"
-      },
-      {
-        "title": "Sala11ry",
-        "data": "salary"
-      },
-      {
-        "title": "111Start Date",
-        "data": "start_date"
-      },
-      {
-        "title": "11Office",
-        "data": "office"
-      },
-      {
-        "title": "1Age",
-        "data": "age"
-      }
-    ],
-    
-    "body": [
+        "body": [
       {
         "name": "Tiger Nixon",
         "position": "System Architect",
@@ -63,5 +36,33 @@
       }
     ],
     
+    "headings": [
+      {
+        "title": "Na11me",
+        "data": "name"
+      },
+      {
+        "title": "Posi11tion",
+        "data": "position"
+      },
+      {
+        "title": "Sala11ry",
+        "data": "salary"
+      },
+      {
+        "title": "111Start Date",
+        "data": "start_date"
+      },
+      {
+        "title": "11Office",
+        "data": "office"
+      },
+      {
+        "title": "1Age",
+        "data": "age"
+      }
+    ]
+    
+   
   }
 }
