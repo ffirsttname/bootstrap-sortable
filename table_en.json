@@ -1,7 +1,7 @@
 {
   "tableData": {
     
-        "body": [
+     "body": [
       {
         "name": "Tiger Nixon",
         "position": "System Architect",
@@ -33,7 +33,7 @@
         "start_date": "2008/11/13",
         "office": "Edinburgh",
         "age": "43"
-      }
+      },
     ],
     
     "headings": [
@@ -60,7 +60,7 @@
       {
         "title": "1Age",
         "data": "age"
-      }
+      },
     ]
     
    
