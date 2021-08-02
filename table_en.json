@@ -34,35 +34,35 @@
       {
         "title": "Storage",
         "data": "storage"
-      }
+      },
       {
         "title": "Screen Size",
         "data": "screen_Size"
-      }
+      },
       {
         "title": "Weight",
         "data": "weight"
-      }
+      },
       {
         "title": "Battery",
         "data": "battery"
-      }
+      },
       {
         "title": "Battery life",
         "data": "battery_life"
-      }
+      },
       {
         "title": "Intel Evo",
         "data": "evo"
-      }
+      },
       {
         "title": "Memory replace",
         "data": "ram_replace"
-      }
+      },
       {
         "title": "Disk replace",
         "data": "disk_replace"
-      }
+      },
     ],
   }
 }
