@@ -1,6 +1,6 @@
 {
   "tableData": {
-    "body": [
+     "body": [
       {
         "name": "Tiger Nixon",
         "position": "System Architect",
@@ -35,7 +35,7 @@
       }
     ],
     
-   "headings": [
+     "headings": [
       {
         "title": "Na11me",
         "data": "name"
