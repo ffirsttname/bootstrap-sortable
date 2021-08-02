@@ -1,6 +1,6 @@
 {
   "tableData": {
-      /*最後唔可以加逗號，未完先可以加*/
+     {//: "最後唔可以加逗號，未完先可以加"},
      "body": [
        
       {"brand": "Tiger Nixon", "model": "System Architect", "cpu": "$320,800", "display_card": "2011/04/25", "ram": "Edinburgh", "storage": "23", "screen_Size": "23", "weight": "23", "battery": "23", "battery_life": "23", "evo": "23", "ram_replace": "23", "disk_replace": "23"},
