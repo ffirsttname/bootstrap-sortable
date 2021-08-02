@@ -1,12 +1,15 @@
 {
   "tableData": {
     "body": [
-      {"brand": "Tiger Nixon", "model": "System Architect", "cpu": "$320,800", "display_card": "2011/04/25", "ram": "Edinburgh", "storage": "23", "screen_Size": "23", "weight": "23", "battery": "23", "battery_life": "23", "evo": "23", "ram_replace": "23", "disk_replace": "23", },
-      {"brand": "Tiger Nixon", "model": "System Architect", "cpu": "$320,800", "display_card": "2011/04/25", "ram": "Edinburgh", "storage": "23", "screen_Size": "23", "weight": "23", "battery": "23", "battery_life": "23", "evo": "23", "ram_replace": "23", "disk_replace": "23", },
-      {"brand": "Tiger Nixon", "model": "System Architect", "cpu": "$320,800", "display_card": "2011/04/25", "ram": "Edinburgh", "storage": "23", "screen_Size": "23", "weight": "23", "battery": "23", "battery_life": "23", "evo": "23", "ram_replace": "23", "disk_replace": "23", },
-      {"brand": "Tiger Nixon", "model": "System Architect", "cpu": "$320,800", "display_card": "2011/04/25", "ram": "Edinburgh", "storage": "23", "screen_Size": "23", "weight": "23", "battery": "23", "battery_life": "23", "evo": "23", "ram_replace": "23", "disk_replace": "23", },
-      {"brand": "Tiger Nixon", "model": "System Architect", "cpu": "$320,800", "display_card": "2011/04/25", "ram": "Edinburgh", "storage": "23", "screen_Size": "23", "weight": "23", "battery": "23", "battery_life": "23", "evo": "23", "ram_replace": "23", "disk_replace": "23", },
-    ],
+      {
+        "brand": "Tiger Nixon",
+        "model": "System Architect",
+        "cpu": "$320,800",
+        "display_card": "2011/04/25",
+        "ram": "Edinburgh",
+        "storage": "23"
+      },
+     ],
     "headings": [
       {
         "title": "Brand",
@@ -21,7 +24,7 @@
         "data": "cpu"
       },
       {
-        "title": "Processor",
+        "title": " Graphics",
         "data": "display_card"
       },
       {
@@ -31,35 +34,7 @@
       {
         "title": "Storage",
         "data": "storage"
-      },
-      {
-        "title": "Screen Size",
-        "data": "screen_Size"
-      },
-      {
-        "title": "Weight",
-        "data": "weight"
-      },
-      {
-        "title": "Battery",
-        "data": "battery"
-      },
-      {
-        "title": "Battery life",
-        "data": "battery_life"
-      },
-      {
-        "title": "Intel Evo",
-        "data": "evo"
-      },
-      {
-        "title": "Memory replace",
-        "data": "ram_replace"
-      },
-      {
-        "title": "Disk replace",
-        "data": "disk_replace"
-      },
+      }
     ],
   }
 }
