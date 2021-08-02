@@ -1,14 +1,11 @@
 {
   "tableData": {
     "body": [
-      {
-        "name": "Tiger Nixon",
-        "position": "System Architect",
-        "salary": "$320,800",
-        "start_date": "2011/04/25",
-        "office": "Edinburgh",
-        "age": "23"
-      },
+      {"brand": "Tiger Nixon", "model": "System Architect", "cpu": "$320,800", "display_card": "2011/04/25", "ram": "Edinburgh", "storage": "23", "screen_Size": "23", "weight": "23", "battery": "23", "battery_life": "23", "evo": "23", "ram_replace": "23", "disk_replace": "23", },
+      {"brand": "Tiger Nixon", "model": "System Architect", "cpu": "$320,800", "display_card": "2011/04/25", "ram": "Edinburgh", "storage": "23", "screen_Size": "23", "weight": "23", "battery": "23", "battery_life": "23", "evo": "23", "ram_replace": "23", "disk_replace": "23", },
+      {"brand": "Tiger Nixon", "model": "System Architect", "cpu": "$320,800", "display_card": "2011/04/25", "ram": "Edinburgh", "storage": "23", "screen_Size": "23", "weight": "23", "battery": "23", "battery_life": "23", "evo": "23", "ram_replace": "23", "disk_replace": "23", },
+      {"brand": "Tiger Nixon", "model": "System Architect", "cpu": "$320,800", "display_card": "2011/04/25", "ram": "Edinburgh", "storage": "23", "screen_Size": "23", "weight": "23", "battery": "23", "battery_life": "23", "evo": "23", "ram_replace": "23", "disk_replace": "23", },
+      {"brand": "Tiger Nixon", "model": "System Architect", "cpu": "$320,800", "display_card": "2011/04/25", "ram": "Edinburgh", "storage": "23", "screen_Size": "23", "weight": "23", "battery": "23", "battery_life": "23", "evo": "23", "ram_replace": "23", "disk_replace": "23", },
     ],
     "headings": [
       {
