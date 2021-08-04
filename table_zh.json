@@ -4,10 +4,8 @@
      "//": "最後唔可以加逗號，未完先可以加",
      "body": [
        
-      {"brand": "Tiger Nixon", "model": "System Architect", "cpu": "$320,800", "display_card": "2011/04/25", "ram": "Edinburgh", "storage": "23", "screen_Size": "23", "weight": "23", "battery": "23", "battery_life": "23", "evo": "23", "ram_replace": "23", "disk_replace": "23"},
-      {"brand": "Tiger Nixon", "model": "System Architect", "cpu": "$320,800", "display_card": "2011/04/25", "ram": "Edinburgh", "storage": "23", "screen_Size": "23", "weight": "23", "battery": "23", "battery_life": "23", "evo": "23", "ram_replace": "23", "disk_replace": "23"},
-      {"brand": "Tiger Nixon", "model": "System Architect", "cpu": "$320,800", "display_card": "2011/04/25", "ram": "Edinburgh", "storage": "23", "screen_Size": "23", "weight": "23", "battery": "23", "battery_life": "23", "evo": "23", "ram_replace": "23", "disk_replace": "23"},
-      {"brand": "Tiger Nixon", "model": "System Architect", "cpu": "$320,800", "display_card": "2011/04/25", "ram": "Edinburgh", "storage": "23", "screen_Size": "23", "weight": "23", "battery": "23", "battery_life": "23", "evo": "23", "ram_replace": "23", "disk_replace": "23"},
+      {"brand": "ASUS", "model": "ZenBook 14 UX425EA", "cpu": " i7-1165G7", "display_card": "Iris Xᵉ Graphics", "ram": "16 GB", "storage": "512 GB", "screen_Size": "14 吋", "weight": "1.17 kg", "battery": "67 Wh", "battery_life": "21 小時", "evo": "N/A", "ram_replace": "✘", "disk_replace": "✔"},
+      
       {"brand": "Tiger Nixon", "model": "System Architect", "cpu": "$320,800", "display_card": "2011/04/25", "ram": "Edinburgh", "storage": "23", "screen_Size": "23", "weight": "23", "battery": "23", "battery_life": "23", "evo": "23", "ram_replace": "23", "disk_replace": "23"}
    
     ],
