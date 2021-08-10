@@ -162,7 +162,7 @@ var total = 0
 
 		/*輸出en結果*/
 		(function() {
-		var battery_life = $('#battery_life').val() + ' hrs';
+		var battery_life = $('#battery_life').val() + ' hour';
 		var screen_size = $('#screen_size').val() + ' inch';
 		$('#en_output').val('{"brand": "'+brand+'", "model": "'+model+'", "cpu": "'+cpu+'", "display_card": "'+display_card+'", "ram": "'+ram+'", "storage": "'+storage+'", "screen_Size": "'+screen_size+'", "weight": "'+weight+'", "battery": "'+battery+'", "battery_life": "'+battery_life+'", "evo": "'+evo+'", "ram_replace": "'+ram_rep+'", "disk_replace": "'+storage_rep+'"},');
 		})();
@@ -225,16 +225,16 @@ evo：
 
 <div class='check_radio'>
 RAM更換：
-<input type='radio' id='ram_rep_can' name='ram_rep' value='✔'/>可以
-<input type='radio' id='ram_rep_cant' name='ram_rep' value='✘' />唔得
+<input type='radio' id='ram_rep_can' name='ram_rep' value='✓'/>可以
+<input type='radio' id='ram_rep_cant' name='ram_rep' value='✗' />唔得
 <input type='radio' id='ram_rep_up' name='ram_rep' value='upgrade'/>可升級
 <input type='radio' id='ram_rep_un' name='ram_rep' value='unknown'/>unknown
 </div>
 
 <div class='check_radio'>
 harddisk更換：
-<input type='radio' id='storage_rep_can' name='storage_rep' value='✔'/>可以
-<input type='radio' id='storage_rep_cant' name='storage_rep' value='✘' />唔得
+<input type='radio' id='storage_rep_can' name='storage_rep' value='✓'/>可以
+<input type='radio' id='storage_rep_cant' name='storage_rep' value='✗' />唔得
 <input type='radio' id='storage_rep_up' name='storage_rep' value='upgrade'/>可升級
 <input type='radio' id='storage_rep_un' name='storage_rep' value='unknown'/>unknown
 </div>
