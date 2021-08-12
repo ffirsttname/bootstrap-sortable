@@ -15,3 +15,7 @@ Battery life->電池續航力<br/>
 Intel Evo->Intel Evo<br/>
 Memory replace->RAM更換<br/>
 Disk replace->硬盤更換<br/>
+
+<h2>英->簡</h2>
+ryzen->锐龙
+Iris Xe->锐炬Xe
