@@ -87,7 +87,6 @@ weight = weight + ' kg';
 var battery = $('#battery').val();
 battery = battery + ' Wh';
 var battery_life = $('#battery_life').val();
-var storage_rep = $('#battery_life').val();
 var evo = null;
 var ram_rep = null;
 var storage_rep = null;
@@ -204,16 +203,16 @@ $('.check_radio input').prop('checked',false);
 <input type='checkbox' id='zh_lang' class='lang' name='zh' checked />繁中/zh
 </div>
 
-<div class='check_text'>牌子/Brand：<input type='text' id='brand' placeholder='e.g:Samsung' onkeyup="value=value.replace(/\s+/g,'')"/></div>
+<div class='check_text'>牌子/Brand：<input type='text' id='brand' placeholder='e.g:Samsung' style="text-transform:capitalize;" onkeyup="value=value.replace(/\s+/g,'')"/></div>
 <div class='check_text'>型號/Model：<input type='text' id='model' placeholder='e.g:galaxy book'/></div>
-<div class='check_text'>CPU/Processor/處理器：<input type='text' id='cpu' placeholder='e.g:i7-1165G7'  onkeyup="value=value.replace(/\s+/g,'')"/></div>
+<div class='check_text'>CPU/Processor/處理器：<input type='text' id='cpu' placeholder='e.g:i7-1165G7' style="text-transform:;" onkeyup="value=value.replace(/\s+/g,'')"/></div>
 <div class='check_text'>display card/Graphics/顯示卡：<input type='text' id='display_card' placeholder='e.g:iris xe graphics g7 80eu'/></div>
 <div class='check_text'>RAM/ram(GB)：<input type='text' id='ram' placeholder='e.g:8' onkeyup="value=value.replace(/[^0-9]{0,1}(\d*(?:\.\d{0,2})*(?:\/\d{0,2})?)/g, '$1')"//></div>
-<div class='check_text'>harddisk/Storage(GB)：<input type='text' id='storage' placeholder='e.g:512' onkeyup="value=value.replace(/[^0-9]{0,1}(\d*(?:\.\d{0,2})*(?:\/\d{0,2})?)/g, '$1')"/></div>
+<div class='check_text'>harddisk/Storage(GB)：<input type='text' id='storage' placeholder='e.g:512' onkeyup="value=value.replace(/[^0-9]{0,1}(\d*(?:\.\d{0,2})?)/g, '$1')"/></div>
 <div class='check_text'>屏幕尺寸/Screen Size(吋/英寸/inch)：<input type='text' id='screen_size' placeholder='e.g:13.3' onkeyup="value=value.replace(/[^0-9]{0,1}(\d*(?:\.\d{0,2})?).*$/g, '$1')"/></div>
-<div class='check_text'>重量/Weight(kg)：<input type='text' id='weight' placeholder='e.g:1' onkeyup="value=value.replace(/[^0-9]{0,1}(\d*(?:\.\d{0,2})?).*$/g, '$1')"/></div>
+<div class='check_text'>重量/Weight(kg)：<input type='text' id='weight' placeholder='e.g:1' onkeyup="value=value.replace(/[^0-9]{0,1}(\d*(?:\.\d{0,3})?).*/g, '$1')"/></div>
 <div class='check_text'>電量/Battery(Wh)：<input type='text' id='battery' placeholder='e.g:99.9' onkeyup="value=value.replace(/[^0-9]{0,1}(\d*(?:\.\d{0,2})?).*$/g, '$1')"/></div>
-<div class='check_text'>電池壽命/battery life(小時)：<input type='text' id='battery_life' placeholder='e.g:7' onkeyup="value=value.replace(/[^0-9]{0,1}(\d*(?:\.\d{0,2})?).*$/g, '$1')"/></div>
+<div class='check_text'>電池壽命/battery life(小時)：<input type='text' id='battery_life' placeholder='e.g:7' onkeyup="value=value.replace(/[^0-9N/A]{0,1}(\d*(?:\.\d{0,2})?)/g, '$1')"/></div>
 
 
 <div class='check_radio'>
