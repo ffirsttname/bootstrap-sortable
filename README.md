@@ -17,5 +17,5 @@ Memory replace->RAM更換<br/>
 Disk replace->硬盤更換<br/>
 
 <h2>英->簡</h2>
-ryzen->锐龙
+ryzen->锐龙<br/>
 Iris Xe->锐炬Xe
