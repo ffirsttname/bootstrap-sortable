@@ -96,44 +96,45 @@ var aaa = '123';
 /*紀錄幾多個唔係空格/有選/總數*/
 var text_total = 0;
 var radio_total = 0;
-var total = 0
+var total = 0;
+
+	
 
 	/*判斷text有無空格*/
 	$(".check_text").each(function(i) {
 	/*如果題目(class='check_text')答案空白，a就會+1*/
 	if ($(".check_text input[type='text']").eq(i).val() != "") {
 		 text_total=text_total+1
-		  console.log('無空格a:'+ text_total + 'i:' +i+ '+check嘅id name:'+ $(".check_radio input[type='radio']:checked").attr('id') + '+check嘅選擇數量:'+ $(".check_radio input[type=radio]:checked").length);
 		  /*$('#hint').html('無空格'+text_total +'+' + $(".check").length);*/
 
 	} else {
 		/*提示字+黃色背景*/
 		/*$('#hint').html('有空格');*/
 		$(".check_text").eq(i).css({'background':'yellow'});
-		console.log('有空格a:'+ text_total + 'i:' +i+ '+check嘅id name:'+ $(".check_radio input[type='radio']:checked").attr('id') + '+check嘅選擇數量:'+ $(".check_radio input[type=radio]:checked").length);
-
-
 		 }
 	
 	});
+	
 	
 	/*判斷radio有無未選*/
 	$(".check_radio").each(function(i) {
 	/*如果選擇左嘅數量係等於題目(class='check_radio')嘅數，b就會等於題目嘅數，例如題目有3條，選擇左3個*/
 	if ($(".check_radio input[type='radio']:checked").length == $(".check_radio").length) {
 		  radio_total = $(".check_radio").length
-		  console.log('無空格a:'+ radio_total + 'i:' +i+ '+check嘅id name:'+ $(".check_radio input[type='radio']:checked").attr('id') + '+check嘅選擇數量:'+ $(".check_radio input[type=radio]:checked").length);
 			$(".check_radio").eq(i).css({'background':''});
 			} else {
 			/*b等於選擇左嘅數，例如題目有3條，選擇左2個*/
 			radio_total = $(".check_radio input[type=radio]:checked").length
-			 console.log('有空格a:'+ radio_total + 'i:' +i+ '+check嘅id name:'+ $(".check_radio input[type='radio']:checked").attr('id') + '+check嘅選擇數量:'+ $(".check_radio input[type=radio]:checked").length);
 		  	$(".check_radio").eq(i).css({'background':'yellow'});
 		 }
 	});
 	
+	/*判斷空值按銼鈕*/
+	if ($('#check_null').is(':checked') == true) {
 	/*text數量加番radio選擇嘅數*/
 	total= text_total+ radio_total
+   } else {total = $(".check_text").length + $(".check_radio").length}
+
 
 	/*如果text填左嘅數量加選擇嘅數量等於題目數*/
 	if (total == $(".check_text").length + $(".check_radio").length) {
@@ -161,22 +162,34 @@ var total = 0
 
 		/*輸出en結果*/
 		(function() {
-		var battery_life = $('#battery_life').val() + ' hour';
+		/*判定battery_life係唔係N/A*/
+		if ($('#battery_life').val().indexOf('N/A') >=0){
+		var battery_life = $('#battery_life').val();
+		} else {var battery_life = $('#battery_life').val() + ' hour';}
+		
 		var screen_size = $('#screen_size').val() + ' inch';
+		
+		/*輸出結果*/
 		$('#en_output').val('{"brand": "'+brand+'", "model": "'+model+'", "cpu": "'+cpu+'", "display_card": "'+display_card+'", "ram": "'+ram+'", "storage": "'+storage+'", "screen_Size": "'+screen_size+'", "weight": "'+weight+'", "battery": "'+battery+'", "battery_life": "'+battery_life+'", "evo": "'+evo+'", "ram_replace": "'+ram_rep+'", "disk_replace": "'+storage_rep+'"},');
 		})();
 		
 		/*輸出zh結果*/
 		(function() {
-		var battery_life = $('#battery_life').val() + ' 小時';
+		/*判定battery_life係唔係N/A*/
+		if ($('#battery_life').val().indexOf('N/A') >=0){
+		var battery_life = $('#battery_life').val();
+		} else {var battery_life = $('#battery_life').val() + ' 小時';}
+		
 		var screen_size = $('#screen_size').val() + ' 吋';
 		if (ram_rep == 'upgrade') {ram_rep = '可升級'};
 		if (storage_rep == 'upgrade') {storage_rep = '可升級'};
+		/*輸出結果*/
 		$('#zh_output').val('{"brand": "'+brand+'", "model": "'+model+'", "cpu": "'+cpu+'", "display_card": "'+display_card+'", "ram": "'+ram+'", "storage": "'+storage+'", "screen_Size": "'+screen_size+'", "weight": "'+weight+'", "battery": "'+battery+'", "battery_life": "'+battery_life+'", "evo": "'+evo+'", "ram_replace": "'+ram_rep+'", "disk_replace": "'+storage_rep+'"},');
 		})();
 	} 
 
-	
+	total= text_total+ radio_total
+
 	$('#hint').html('空格'+eval($(".check_text").length + $(".check_radio").length - total) +'個');
 
 });
@@ -201,14 +214,16 @@ $('.check_radio input').prop('checked',false);
 
 <input type='checkbox' id='en_lang' class='lang' name='en' checked />英/en
 <input type='checkbox' id='zh_lang' class='lang' name='zh' checked />繁中/zh
+<input type='checkbox' id='check_null' class='lang' checked />判定空值
+
 </div>
 
 <div class='check_text'>牌子/Brand：<input type='text' id='brand' placeholder='e.g:Samsung' style="text-transform:capitalize;" onkeyup="value=value.replace(/\s+/g,'')"/></div>
 <div class='check_text'>型號/Model：<input type='text' id='model' placeholder='e.g:galaxy book'/></div>
-<div class='check_text'>CPU/Processor/處理器：<input type='text' id='cpu' placeholder='e.g:i7-1165G7' style="text-transform:;" onkeyup="value=value.replace(/\s+/g,'')"/></div>
+<div class='check_text'>CPU/Processor/處理器：<input type='text' id='cpu' placeholder='e.g:i7-1165G7' style="text-transform:;" /></div>
 <div class='check_text'>display card/Graphics/顯示卡：<input type='text' id='display_card' placeholder='e.g:iris xe graphics g7 80eu'/></div>
 <div class='check_text'>RAM/ram(GB)：<input type='text' id='ram' placeholder='e.g:8' onkeyup="value=value.replace(/[^0-9]{0,1}(\d*(?:\.\d{0,2})*(?:\/\d{0,2})?)/g, '$1')"//></div>
-<div class='check_text'>harddisk/Storage(GB)：<input type='text' id='storage' placeholder='e.g:512' onkeyup="value=value.replace(/[^0-9]{0,1}(\d*(?:\.\d{0,2})?)/g, '$1')"/></div>
+<div class='check_text'>harddisk/Storage(GB)：<input type='text' id='storage' placeholder='e.g:512' onkeyup="value=value.replace(/[^0-9]{0,1}(\d*(?:\.\d{0,2})*(?:\/\d{0,2})?)/g, '$1')"/></div>
 <div class='check_text'>屏幕尺寸/Screen Size(吋/英寸/inch)：<input type='text' id='screen_size' placeholder='e.g:13.3' onkeyup="value=value.replace(/[^0-9]{0,1}(\d*(?:\.\d{0,2})?).*$/g, '$1')"/></div>
 <div class='check_text'>重量/Weight(kg)：<input type='text' id='weight' placeholder='e.g:1' onkeyup="value=value.replace(/[^0-9]{0,1}(\d*(?:\.\d{0,3})?).*/g, '$1')"/></div>
 <div class='check_text'>電量/Battery(Wh)：<input type='text' id='battery' placeholder='e.g:99.9' onkeyup="value=value.replace(/[^0-9]{0,1}(\d*(?:\.\d{0,2})?).*$/g, '$1')"/></div>
