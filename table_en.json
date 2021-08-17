@@ -2,8 +2,39 @@
   "tableData": {
      "//": "最後唔可以加逗號，未完先可以加",
      "body": [
-       {"brand": "Acer","model": "ConceptD 9 (CN9179-71)", "cpu": "i9-9980HK", "display_card": "GeForce RTX 2080 ", "ram": "32 GB", "storage": "1024 GB", "screen_Size": "17.3 inch", "weight": "4.1 kg", "battery": "71.9 Wh", "battery_life": "N/A", "evo": "Evo", "ram_replace": "✓","disk_replace": "upgrade", "battery_replace": "✗"}
-        ],
+{"brand": "Acer", "model": "ConceptD 9 (CN9179-71)", "cpu": "i9-9980HK", "display_card": "GeForce RTX 2080 ", "ram": "32 GB", "storage": "1024 GB", "screen_Size": "17.3 inch", "weight": "4.1 kg", "battery": "71.9 Wh", "battery_life": "N/A", "evo": "Evo", "ram_replace": "✓", "disk_replace": "✓", "battery_replace": "✗"},
+       {"brand": "Acer", "model": "ConceptD 9 Pro (CN917-71P)", "cpu": "i9-9980HK", "display_card": "Quadro RTX 5000", "ram": "32 GB", "storage": "2048 GB", "screen_Size": "17.3 inch", "weight": "4.5 kg", "battery": "71.9 Wh", "battery_life": "N/A", "evo": "Evo", "ram_replace": "✓", "disk_replace": "✓", "battery_replace": "✗"},
+       {"brand": "Asus", "model": "ZenBook 14 UX425EA", "cpu": "i7-1165G7", "display_card": "Iris Xe Graphics G7", "ram": "16 GB", "storage": "512 GB", "screen_Size": "14 inch", "weight": "1.17 kg", "battery": "67 Wh", "battery_life": "21 hour", "evo": "N/A", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗"},
+       {"brand": "Asus", "model": "ZenBook 14 UX425EA", "cpu": "i5-1135G7", "display_card": "Iris Xe Graphics G7", "ram": "8/16 GB", "storage": "512 GB", "screen_Size": "14 inch", "weight": "1.17 kg", "battery": "67 Wh", "battery_life": "21 hour", "evo": "N/A", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗"},
+       {"brand": "Asus", "model": "ExpertBook B9 B9400", "cpu": "i7-1165G7 ", "display_card": "Iris Xe Graphics G7", "ram": "16/32 GB", "storage": "512/1024/2048 GB", "screen_Size": "14 inch", "weight": "0.995 kg", "battery": "66 Wh", "battery_life": "17 hour", "evo": "Evo", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗"},
+       {"brand": "Asus", "model": "ExpertBook B9 B9400", "cpu": "i5-1135G7", "display_card": "Iris Xe Graphics G7", "ram": "16 GB", "storage": "512/1024 GB", "screen_Size": "14 inch", "weight": "0.995 kg", "battery": "66 Wh", "battery_life": "17 hour", "evo": "Evo", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗"},
+       {"brand": "Gigabyte", "model": "Aero 15 OLED XC", "cpu": "i7-10870H", "display_card": "GeForce RTX 3070", "ram": "32 GB", "storage": "1024 GB", "screen_Size": "15.6 inch", "weight": "2.23 kg", "battery": "99 Wh", "battery_life": "8 hour", "evo": "N/A", "ram_replace": "✓", "disk_replace": "✓", "battery_replace": "✗"},
+       {"brand": "Gigabyte", "model": "Aero 15 OLED YC", "cpu": "i9-10980HK", "display_card": "GeForce RTX 3080", "ram": "64 GB", "storage": "2048 GB", "screen_Size": "15.6 inch", "weight": "2.23 kg", "battery": "99 Wh", "battery_life": "8 hour", "evo": "N/A", "ram_replace": "✓", "disk_replace": "✓", "battery_replace": "✗"},
+       {"brand": "LG", "model": "Gram 14Z90P-G", "cpu": "i5-1135G7", "display_card": "Iris Xe Graphics G7", "ram": "8/16 GB", "storage": "512 GB", "screen_Size": "14 inch", "weight": "0.999 kg", "battery": "72 Wh", "battery_life": "25.5 hour", "evo": "Evo", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗"},
+       {"brand": "LG", "model": "Gram 14Z90P-G", "cpu": "i7-1165G7", "display_card": "Iris Xe Graphics G7", "ram": "16 GB", "storage": "1024 GB", "screen_Size": "14 inch", "weight": "0.999 kg", "battery": "72 Wh", "battery_life": "25.5 hour", "evo": "Evo", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗", "battery_replace": "✗"},
+       {"brand": "LG", "model": "Gram 16Z90P-G", "cpu": "i5-1135G7", "display_card": "Iris Xe Graphics G7", "ram": "16 GB", "storage": "512 GB", "screen_Size": "16 inch", "weight": "1.190 kg", "battery": "80 Wh", "battery_life": "22 hour", "evo": "Evo", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗", "battery_replace": "✗"},
+       {"brand": "LG", "model": "Gram 16Z90P-G", "cpu": "i7-1165G7", "display_card": "Iris Xe Graphics G7", "ram": "16 GB", "storage": "1024 GB", "screen_Size": "16 inch", "weight": "1.190 kg", "battery": "80 Wh", "battery_life": "22 hour", "evo": "Evo", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗", "battery_replace": "✗"},
+       {"brand": "LG", "model": "Gram 17Z90P-G", "cpu": "i5-1135G7", "display_card": "Iris Xe Graphics G7", "ram": "16 GB", "storage": "512 GB", "screen_Size": "17 inch", "weight": "1.350 kg", "battery": "80 Wh", "battery_life": "19.5 hour", "evo": "Evo", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗"},
+       {"brand": "LG", "model": "Gram 17Z90P-G", "cpu": "i5-1135G7", "display_card": "Iris Xe Graphics G7", "ram": "16 GB", "storage": "1024 GB", "screen_Size": "17 inch", "weight": "1.350 kg", "battery": "80 Wh", "battery_life": "19.5 hour", "evo": "Evo", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗"},
+       {"brand": "LG", "model": "Gram 14T90P", "cpu": "i5-1135G7", "display_card": "Iris Xe Graphics G7", "ram": "8/16 GB", "storage": "512 GB", "screen_Size": "14 inch", "weight": "1.250 kg", "battery": "72 Wh", "battery_life": "24.5 hour", "evo": "Evo", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗"},
+       {"brand": "LG", "model": "Gram 14T90P", "cpu": "i7-1165G7", "display_card": "Iris Xe Graphics G7", "ram": "16 GB", "storage": "1024 GB", "screen_Size": "14 inch", "weight": "1.250 kg", "battery": "72 Wh", "battery_life": "24.5 hour", "evo": "Evo", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗", "battery_replace": "✗"},
+       {"brand": "LG", "model": "Gram 16T90P", "cpu": "i5-1135G7", "display_card": "Iris Xe Graphics G7", "ram": "16 GB", "storage": "512 GB", "screen_Size": "16 inch", "weight": "1.454 kg", "battery": "80 Wh", "battery_life": "21 hour", "evo": "Evo", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗"},
+       {"brand": "LG", "model": "Gram 16T90P", "cpu": "i7-1165G7", "display_card": "Iris Xe Graphics G7", "ram": "16 GB", "storage": "1024 GB", "screen_Size": "16 inch", "weight": "1.454 kg", "battery": "80 Wh", "battery_life": "21 hour", "evo": "Evo", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗"},
+       {"brand": "LG", "model": "Gram 14Z980", "cpu": "i5-8250U", "display_card": "Graphic 620", "ram": "8 GB", "storage": "256/512 GB", "screen_Size": "14 inch", "weight": "0.995 kg", "battery": "72 Wh", "battery_life": "21.5 hour", "evo": "N/A", "ram_replace": "✓", "disk_replace": "✓", "battery_replace": "✗"},
+       {"brand": "Samsung", "model": "Galaxy Book Pro NP930", "cpu": "i5-1135G7/i7-1165G7", "display_card": "Iris Xe Graphics G7", "ram": "16 GB", "storage": "512/1024 GB", "screen_Size": "13.3 inch", "weight": "0.87 kg", "battery": "63 Wh", "battery_life": "21 hour", "evo": "Evo", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗"},
+       {"brand": "Samsung", "model": "Galaxy Book Pro NP950", "cpu": "i5-1135G7/i7-1165G7", "display_card": "GeForce MX450", "ram": "16 GB", "storage": "512/1024 GB", "screen_Size": "15.6 inch", "weight": "1.15 kg", "battery": "68 Wh", "battery_life": "21 hour", "evo": "Evo", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗"},
+       {"brand": "Xiaomi", "model": "Pro 15", "cpu": "i5-11300H", "display_card": "Iris Xe Graphics", "ram": "16 GB", "storage": "512 GB", "screen_Size": "15.6 inch", "weight": "1.8 kg", "battery": "66 Wh", "battery_life": "13 hour", "evo": "Evo", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗"},
+       {"brand": "Xiaomi", "model": "Pro 15", "cpu": "i5-11300H/i7-11370H", "display_card": "GeForce MX450", "ram": "16 GB", "storage": "512 GB", "screen_Size": "15.6 inch", "weight": "1.8 kg", "battery": "66 Wh", "battery_life": "13 hour", "evo": "N/A", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗"},
+       {"brand": "Xiaomi", "model": "Pro 15", "cpu": "ryzen5-5600H/ryzen7-5800H", "display_card": "Radeon Graphics", "ram": "16 GB", "storage": "512 GB", "screen_Size": "15.6 inch", "weight": "1.8 kg", "battery": "66 Wh", "battery_life": "13 hour", "evo": "N/A", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗"},
+       {"brand": "Xiaomi", "model": "Pro X 15", "cpu": "i5-11300H", "display_card": "GeForce RTX 3050 Ti", "ram": "16 GB", "storage": "512 GB", "screen_Size": "15.6 inch", "weight": "1.9 kg", "battery": "80 Wh", "battery_life": "11.5 hour", "evo": "N/A", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗"},
+       {"brand": "Xiaomi", "model": "Pro X 15", "cpu": "i7-11370H", "display_card": "GeForce RTX 3050 Ti", "ram": "32 GB", "storage": "1024 GB", "screen_Size": "15.6 inch", "weight": "1.9 kg", "battery": "80 Wh", "battery_life": "11.5 hour", "evo": "N/A", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗"},
+       {"brand": "Xiaomi", "model": "RedmiBook Pro 15", "cpu": "i5-11300H", "display_card": "Iris Xe Graphics", "ram": "16 GB", "storage": "512 GB", "screen_Size": "15.6 inch", "weight": "1.73 kg", "battery": "70 Wh", "battery_life": "N/A", "evo": "N/A", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗"},
+       {"brand": "Xiaomi", "model": "RedmiBook Pro 15", "cpu": "i5-11300H/i7-11370H", "display_card": "GeForce MX450", "ram": "16 GB", "storage": "512 GB", "screen_Size": "15.6 inch", "weight": "1.79 kg", "battery": "70 Wh", "battery_life": "12 hour", "evo": "N/A", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗"},
+       {"brand": "Xiaomi", "model": "RedmiBook Pro 15", "cpu": "ryzen5 5600H/ryzen7 5800H", "display_card": "Radeon Graphics", "ram": "16 GB", "storage": "512 GB", "screen_Size": "15.6 inch", "weight": "1.8 kg", "battery": "70 Wh", "battery_life": "14 hour", "evo": "N/A", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗"},
+       {"brand": "Xiaomi", "model": "RedmiBook 16", "cpu": "i5-1035G1/i7-1065G7", "display_card": "GeForce MX350", "ram": "16 GB", "storage": "512 GB", "screen_Size": "16.1 inch", "weight": "1.8 kg", "battery": "46 Wh", "battery_life": "12 hour", "evo": "N/A", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗"},
+       {"brand": "Xiaomi", "model": "RedmiBook 16", "cpu": "ryzen5 4500U", "display_card": "Radeon Graphics", "ram": "8/16 GB", "storage": "512 GB", "screen_Size": "16.1 inch", "weight": "1.8 kg", "battery": "46 Wh", "battery_life": "12 hour", "evo": "N/A", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗"},
+       {"brand": "Xiaomi", "model": "RedmiBook 16", "cpu": "ryzen7 4700U", "display_card": "Radeon Graphics", "ram": "16 GB", "storage": "512 GB", "screen_Size": "16.1 inch", "weight": "1.8 kg", "battery": "46 Wh", "battery_life": "12 hour", "evo": "N/A", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗"}
+	           ],
       
     "//": "最後唔可以加逗號，未完先可以加",
     "headings": [
@@ -57,14 +88,13 @@
         "data": "ram_replace"
       },
       {
-        "title": "Battery removable",
-        "data": "battery_replace"
-      },
-      {
         "title": "Disk removable",
         "data": "disk_replace"
+      },
+      {
+        "title": "Battery removable",
+        "data": "battery_replace"
       }
-      
       
     ]
     
