@@ -60,10 +60,6 @@
       {
         "title": "Disk removable",
         "data": "disk_replace"
-      },
-      {
-        "title": "Battery removable",
-        "data": "battery_replace"
       }
       
     ]
