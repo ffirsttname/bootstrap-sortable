@@ -2,7 +2,7 @@
   "tableData": {
      "//": "最後唔可以加逗號，未完先可以加",
      "body": [
-       {"brand": "Acer", "model": "ConceptD 9 (CN9179-71)", "cpu": "i9-9980HK", "display_card": "GeForce RTX 2080 ", "ram": "32 GB", "storage": "1024 GB", "screen_Size": "17.3 inch", "weight": "4.1 kg", "battery": "71.9 Wh", "battery_life": "N/A", "evo": "Evo", "ram_replace": "✓", "ram_replace2": "✓","disk_replace": "upgrade"},
+       {"brand": "Acer", "model": "ConceptD 9 (CN9179-71)", "cpu": "i9-9980HK", "display_card": "GeForce RTX 2080 ", "ram": "32 GB", "storage": "1024 GB", "screen_Size": "17.3 inch", "weight": "4.1 kg", "battery": "71.9 Wh", "battery_life": "N/A", "evo": "Evo", "ram_replace": "✓","disk_replace": "upgrade"},
         ],
       
     "//": "最後唔可以加逗號，未完先可以加",
@@ -56,10 +56,7 @@
         "title": "Memory replace",
         "data": "ram_replace"
       },
-    {
-        "title": "Memory replace",
-        "data": "ram_replace2"
-      },
+  
       {
         "title": "Disk replace",
         "data": "disk_replace"
