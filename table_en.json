@@ -84,12 +84,16 @@
         "data": "evo"
       },
       {
-        "title": "Memory replace",
+        "title": "Memory removable",
         "data": "ram_replace"
       },
       {
-        "title": "Disk replace",
+        "title": "Disk removable",
         "data": "disk_replace"
+      },
+      {
+        "title": "Battery removable",
+        "data": "battery_replace"
       }
       
     ]
