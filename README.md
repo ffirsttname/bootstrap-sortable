@@ -16,7 +16,7 @@ inch<br/>
 Weight<br/>
 kg<br/>
 Battery<br/>
-Wh->Wh<br/>
+Wh<br/>
 Battery life<br/>
 hour<br/>
 Intel Evo<br/>
