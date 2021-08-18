@@ -1,5 +1,5 @@
 文字對應目錄
-<br/><a href="#英</a>
+<br/><a href="#>英</a>
 <br/><a href="#英-中">英->中</a>
 
 
@@ -26,7 +26,9 @@ Battery removable<br/>
 No matches found<br/>
   
 ##### Information feedback
-
+feedback<br/>
+unknown<br/>
+submit<br/>
   
   
 ## 英->中
@@ -51,7 +53,11 @@ Battery removable->電池拆除<br/>
 
 No matches found->沒有符合結果<br/>
 
+##### Information feedback
+feedback->反映<br/>
+unknown->不清楚<br/>
+submit->提交<br/>
   
-<h2>英->簡</h2>
+##英->簡
 ryzen->锐龙<br/>
 Iris Xe->锐炬Xe
