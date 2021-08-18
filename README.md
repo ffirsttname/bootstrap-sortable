@@ -32,7 +32,7 @@ submit<br/>
   
   
 ## 英->中
-### Laptop Information
+##### Laptop Information
 Brand->品牌<br/>
 Model->型號<br/>
 Processor->處理器<br/>
