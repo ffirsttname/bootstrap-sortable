@@ -90,7 +90,7 @@ var battery_life = $('#battery_life').val();
 var evo = null;
 var ram_rep = null;
 var storage_rep = null;
-var aaa = '123';
+var battery_rep = null;
 /*讀取每個格嘅值↑*/
 
 /*紀錄幾多個唔係空格/有選/總數*/
@@ -145,18 +145,25 @@ var total = 0;
 			console.log(evo);
 		};
 			
-		/*判斷RAM更換選擇左邊個*/
+		/*判斷RAM拆除選擇左邊個*/
 		if ($("input[type='radio'][name='ram_rep']").is(':checked') == true) {
 			ram_rep = $("input[type='radio'][name='ram_rep']:checked").val();
 			console.log('RAM更換');
 			console.log(ram_rep);
 		};	
 		
-		/*判斷harddisk更換選擇左邊個*/
+		/*判斷harddisk拆除選擇左邊個*/
 		if ($("input[type='radio'][name='storage_rep']").is(':checked') == true) {
 			storage_rep = $("input[type='radio'][name='storage_rep']:checked").val();
 			console.log('harddisk更換');
 			console.log(storage_rep);	
+		};	
+		
+		/*判斷battery拆除選擇左邊個*/
+		if ($("input[type='radio'][name='battery_rep']").is(':checked') == true) {
+			battery_rep = $("input[type='radio'][name='battery_rep']:checked").val();
+			console.log('battery更換');
+			console.log(battery_rep);	
 		};	
 		
 
@@ -170,8 +177,9 @@ var total = 0;
 		var screen_size = $('#screen_size').val() + ' inch';
 		
 		/*輸出結果*/
-		$('#en_output').val('{"brand": "'+brand+'", "model": "'+model+'", "cpu": "'+cpu+'", "display_card": "'+display_card+'", "ram": "'+ram+'", "storage": "'+storage+'", "screen_Size": "'+screen_size+'", "weight": "'+weight+'", "battery": "'+battery+'", "battery_life": "'+battery_life+'", "evo": "'+evo+'", "ram_replace": "'+ram_rep+'", "disk_replace": "'+storage_rep+'"},');
+		$('#en_output').val('{"brand": "'+brand+'", "model": "'+model+'", "cpu": "'+cpu+'", "display_card": "'+display_card+'", "ram": "'+ram+'", "storage": "'+storage+'", "screen_Size": "'+screen_size+'", "weight": "'+weight+'", "battery": "'+battery+'", "battery_life": "'+battery_life+'", "evo": "'+evo+'", "ram_replace": "'+ram_rep+'", "disk_replace": "'+storage_rep+'", "battery_replace": "'+battery_rep+'"},');
 		})();
+		
 		
 		/*輸出zh結果*/
 		(function() {
@@ -184,7 +192,7 @@ var total = 0;
 		if (ram_rep == 'upgrade') {ram_rep = '可升級'};
 		if (storage_rep == 'upgrade') {storage_rep = '可升級'};
 		/*輸出結果*/
-		$('#zh_output').val('{"brand": "'+brand+'", "model": "'+model+'", "cpu": "'+cpu+'", "display_card": "'+display_card+'", "ram": "'+ram+'", "storage": "'+storage+'", "screen_Size": "'+screen_size+'", "weight": "'+weight+'", "battery": "'+battery+'", "battery_life": "'+battery_life+'", "evo": "'+evo+'", "ram_replace": "'+ram_rep+'", "disk_replace": "'+storage_rep+'"},');
+		$('#zh_output').val('{"brand": "'+brand+'", "model": "'+model+'", "cpu": "'+cpu+'", "display_card": "'+display_card+'", "ram": "'+ram+'", "storage": "'+storage+'", "screen_Size": "'+screen_size+'", "weight": "'+weight+'", "battery": "'+battery+'", "battery_life": "'+battery_life+'", "evo": "'+evo+'", "ram_replace": "'+ram_rep+'", "disk_replace": "'+storage_rep+'", "battery_replace": "'+battery_rep+'"},');
 		})();
 	} 
 
@@ -218,7 +226,7 @@ $('.check_radio input').prop('checked',false);
 
 </div>
 
-<div class='check_text'>牌子/Brand：<input type='text' id='brand' placeholder='e.g:Samsung' style="text-transform:capitalize;" onkeyup="value=value.replace(/\s+/g,'')"/></div>
+<div class='check_text'>牌子/Brand：<input type='text' id='brand' placeholder='e.g:Samsung' style="text-transform:capitalize;"/></div>
 <div class='check_text'>型號/Model：<input type='text' id='model' placeholder='e.g:galaxy book'/></div>
 <div class='check_text'>CPU/Processor/處理器：<input type='text' id='cpu' placeholder='e.g:i7-1165G7' style="text-transform:;" /></div>
 <div class='check_text'>display card/Graphics/顯示卡：<input type='text' id='display_card' placeholder='e.g:iris xe graphics g7 80eu'/></div>
@@ -238,7 +246,7 @@ evo：
 </div>
 
 <div class='check_radio'>
-RAM更換：
+RAM拆除：
 <input type='radio' id='ram_rep_can' name='ram_rep' value='✓'/>可以
 <input type='radio' id='ram_rep_cant' name='ram_rep' value='✗' />唔得
 <input type='radio' id='ram_rep_up' name='ram_rep' value='upgrade'/>可升級
@@ -246,11 +254,19 @@ RAM更換：
 </div>
 
 <div class='check_radio'>
-harddisk更換：
+harddisk拆除：
 <input type='radio' id='storage_rep_can' name='storage_rep' value='✓'/>可以
 <input type='radio' id='storage_rep_cant' name='storage_rep' value='✗' />唔得
 <input type='radio' id='storage_rep_up' name='storage_rep' value='upgrade'/>可升級
 <input type='radio' id='storage_rep_un' name='storage_rep' value='unknown'/>unknown
+</div>
+
+<div class='check_radio'>
+電池拆除：
+<input type='radio' id='battery_rep_can' name='battery_rep' value='✓'/>可以
+<input type='radio' id='battery_rep_cant' name='battery_rep' value='✗' />唔得
+<input type='radio' id='battery_rep_up' name='battery_rep' value='upgrade'/>可升級
+<input type='radio' id='battery_rep_un' name='battery_rep' value='unknown'/>unknown
 </div>
  
 <input type='button' id='finish' value='生成'/>
