@@ -16,8 +16,9 @@ inch<br/>
 Weight<br/>
 kg<br/>
 Battery<br/>
-hour<br/>
+Wh->Wh<br/>
 Battery life<br/>
+hour<br/>
 Intel Evo<br/>
 Memory removable<br/>
 Disk removable<br/>
@@ -44,6 +45,7 @@ inch->吋<br/>
 Weight->重量<br/>
 kg->kg<br/>
 Battery->電量<br/>
+Wh->Wh<br/>
 Battery life->電池續航力<br/>
 hour->小時<br/>
 Intel Evo->Intel Evo<br/>
