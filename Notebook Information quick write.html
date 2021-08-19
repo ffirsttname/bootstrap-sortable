@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <title>Notebook Information quick write</title>
 <style>
 /*滑鼠移入顯示圖片*/
@@ -82,6 +82,7 @@ ram = ram + ' GB';
 var storage = $('#storage').val();
 storage = storage + ' GB';
 var screen_size = $('#screen_size').val();
+screen_size = screen_size + 'inch';
 var weight = $('#weight').val();
 weight = weight + ' kg';
 var battery = $('#battery').val();
@@ -173,8 +174,6 @@ var total = 0;
 		if ($('#battery_life').val().indexOf('N/A') >=0){
 		var battery_life = $('#battery_life').val();
 		} else {var battery_life = $('#battery_life').val() + ' hour';}
-		
-		var screen_size = $('#screen_size').val() + ' inch';
 		
 		/*輸出結果*/
 		$('#en_output').val('{"brand": "'+brand+'", "model": "'+model+'", "cpu": "'+cpu+'", "display_card": "'+display_card+'", "ram": "'+ram+'", "storage": "'+storage+'", "screen_Size": "'+screen_size+'", "weight": "'+weight+'", "battery": "'+battery+'", "battery_life": "'+battery_life+'", "evo": "'+evo+'", "ram_replace": "'+ram_rep+'", "disk_replace": "'+storage_rep+'", "battery_replace": "'+battery_rep+'"},');
