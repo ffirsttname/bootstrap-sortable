@@ -25,6 +25,8 @@ Disk removable<br/>
 Battery removable<br/>
 
 No matches found<br/>
+Please install<br/>
+or change browser<br/>
   
 ##### Information feedback
 feedback<br/>
@@ -54,6 +56,8 @@ Disk removable->硬盤拆除<br/>
 Battery removable->電池拆除<br/>
 
 No matches found->沒有符合結果<br/>
+Please install->請安裝<br/>
+or change browser->或換瀏覽器<br/>
 
 ##### Information feedback
 feedback->反映<br/>
