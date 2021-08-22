@@ -1,0 +1,6 @@
+2021-08-22 20:50:05: -- 分析開始 User Command
+2021-08-22 20:50:05: 左側: State file does not exist: C:/Users/hi/Desktop/notebook_table_data/_gsdata_/_file_state_v4._gs
+2021-08-22 20:50:06: 右側: State file does not exist: msgraph://graph.microsoft.com/:drive:910be7654abbbbd2/notebook_table_data/_gsdata_/_file_state_v4._gs
+2021-08-22 20:50:07: 變更：91， 衝突：0， 複製時間：0， 複製狀態：0， 錯誤： 0, All: 92
+2021-08-22 20:50:07: Left to Right: Copy File: 91 
+2021-08-22 20:50:07: -- 分析已結束。歷時 00:00:05, 速度： 18 文件/秒

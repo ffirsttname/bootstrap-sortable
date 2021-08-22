@@ -1,0 +1,4 @@
+2021-08-22 20:52:37: -- 分析開始 On File Change First Full Analyze Upon Folder Connect
+2021-08-22 20:52:40: 右側: State file does not exist: msgraph://graph.microsoft.com/:drive:910be7654abbbbd2/notebook_table_data/_gsdata_/_file_state_v4._gs
+2021-08-22 20:52:41: 變更：0， 衝突：0， 複製時間：0， 複製狀態：11， 錯誤： 0, All: 14
+2021-08-22 20:52:42: Free Version limitation: Auto-Run of Jobs is not allowed: Activate Paid Version of GoodSync from Purchased License and run Job again
