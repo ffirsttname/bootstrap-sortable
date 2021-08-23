@@ -1,8 +1,0 @@
-2021-08-23 00:28:37: Waiting for 16(120) sec on verb GET: Cannot resolve IP name (bad name or no connection); name=graph.microsoft.com; port=443
-2021-08-23 00:28:54: Waiting for 30(120) sec on verb GET: Cannot resolve IP name (bad name or no connection); name=graph.microsoft.com; port=443
-2021-08-23 08:30:34: Recovered the connection, continuing operations
-2021-08-23 08:30:34: R: File Monitoring: Not Available on: msgraph://graph.microsoft.com/:drive:910be7654abbbbd2/notebook_table_data
-2021-08-23 08:30:34: On Folder Connect Monitoring started on msgraph://graph.microsoft.com/:drive:910be7654abbbbd2/notebook_table_data
-2021-08-23 09:55:27: -- 分析開始 On File Change First Full Analyze Upon Folder Connect
-2021-08-23 09:56:00: 變更：0， 衝突：0， 複製時間：0， 複製狀態：0， 錯誤： 0, All: 14
-2021-08-23 09:56:00: -- 分析已結束。歷時 00:00:32, 速度： 0 文件/秒
