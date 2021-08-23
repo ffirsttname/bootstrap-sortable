@@ -1,0 +1,9 @@
+2021-08-22 21:11:59: -- 分析開始 On File Change, After Delay
+2021-08-22 21:12:03: 變更：3， 衝突：0， 複製時間：0， 複製狀態：0， 錯誤： 0, All: 14
+2021-08-22 21:12:03: Left to Right: Delete File: 3 
+2021-08-22 21:12:03: == 同步開始由 On File Change, After Delay
+2021-08-22 21:12:08: 刪除檔 msgraph://graph.microsoft.com/:drive:910be7654abbbbd2/notebook_table_data/test123.txt
+2021-08-22 21:12:09: 刪除檔 msgraph://graph.microsoft.com/:drive:910be7654abbbbd2/notebook_table_data/testtt.txt
+2021-08-22 21:12:11: 刪除檔 msgraph://graph.microsoft.com/:drive:910be7654abbbbd2/notebook_table_data/testttt.txt
+2021-08-22 21:12:12: Start only 0 threads, limited by tasks to run
+2021-08-22 21:12:14: == 同步完成. 歷時: 00:00:18, 速度: 7.28 KB/s, 完成: 3, 錯誤: 0
