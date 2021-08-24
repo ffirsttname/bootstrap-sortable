@@ -1,0 +1,11 @@
+2021-08-23 22:09:15: -- 分析開始 On File Change, After Delay
+2021-08-23 22:09:18: 變更：6， 衝突：0， 複製時間：0， 複製狀態：0， 錯誤： 0, All: 14
+2021-08-23 22:09:18: Left to Right: Copy File: 6 
+2021-08-23 22:09:18: == 同步開始由 On File Change, After Delay
+2021-08-23 22:09:20: 新建複製 'C:/Users/hi/Desktop/notebook_table_data/browser_language_check.html' -> 'msgraph://graph.microsoft.com/:drive:910be7654abbbbd2/notebook_table_data/browser_language_check.html' (148)
+2021-08-23 22:09:21: 新建複製 'C:/Users/hi/Desktop/notebook_table_data/Notebook Information quick write.html' -> 'msgraph://graph.microsoft.com/:drive:910be7654abbbbd2/notebook_table_data/Notebook Information quick write.html' (10,957)
+2021-08-23 22:09:21: 新建複製 'C:/Users/hi/Desktop/notebook_table_data/README.md' -> 'msgraph://graph.microsoft.com/:drive:910be7654abbbbd2/notebook_table_data/README.md' (1,303)
+2021-08-23 22:09:22: 新建複製 'C:/Users/hi/Desktop/notebook_table_data/table_en.json' -> 'msgraph://graph.microsoft.com/:drive:910be7654abbbbd2/notebook_table_data/table_en.json' (20,520)
+2021-08-23 22:09:22: 新建複製 'C:/Users/hi/Desktop/notebook_table_data/table_zh.json' -> 'msgraph://graph.microsoft.com/:drive:910be7654abbbbd2/notebook_table_data/table_zh.json' (3,785)
+2021-08-23 22:09:23: 新建複製 'C:/Users/hi/Desktop/notebook_table_data/test.json' -> 'msgraph://graph.microsoft.com/:drive:910be7654abbbbd2/notebook_table_data/test.json' (1,374)
+2021-08-23 22:09:26: == 同步完成. 歷時: 00:00:15, 速度: 22.18 KB/s, 完成: 6, 錯誤: 0
