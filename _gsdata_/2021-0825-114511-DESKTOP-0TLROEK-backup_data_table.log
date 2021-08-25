@@ -1,0 +1,7 @@
+2021-08-25 11:45:14: -- 分析開始 On File Change, After Delay
+2021-08-25 11:45:18: 變更：1， 衝突：0， 複製時間：0， 複製狀態：0， 錯誤： 0, All: 14
+2021-08-25 11:45:18: Left to Right: Copy File: 1 
+2021-08-25 11:45:18: == 同步開始由 On File Change, After Delay
+2021-08-25 11:45:18: Start only 1 threads, limited by tasks to run
+2021-08-25 11:45:24: 覆蓋複製 'C:/Users/hi/Desktop/notebook_table_data/table_en.json' -> 'msgraph://graph.microsoft.com/:drive:910be7654abbbbd2/notebook_table_data/table_en.json' (24,418)
+2021-08-25 11:45:27: == 同步完成. 歷時: 00:00:16, 速度: 1.87 KB/s, 完成: 1, 錯誤: 0
