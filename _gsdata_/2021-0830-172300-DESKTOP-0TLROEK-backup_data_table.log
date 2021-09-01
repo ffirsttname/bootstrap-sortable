@@ -1,0 +1,9 @@
+2021-08-30 17:23:03: -- 分析開始 On File Change First Full Analyze Upon Folder Connect
+2021-08-30 17:23:09: 變更：4， 衝突：0， 複製時間：0， 複製狀態：0， 錯誤： 0, All: 15
+2021-08-30 17:23:09: Left to Right: Copy File: 4 
+2021-08-30 17:23:09: == 同步開始由 On File Change First Full Analyze Upon Folder Connect
+2021-08-30 17:23:11: 新建複製 'C:/Users/hi/Desktop/notebook_table_data/github upload.bat' -> 'msgraph://graph.microsoft.com/:drive:910be7654abbbbd2/notebook_table_data/github upload.bat' (426)
+2021-08-30 17:23:18: 覆蓋複製 'C:/Users/hi/Desktop/notebook_table_data/README.md' -> 'msgraph://graph.microsoft.com/:drive:910be7654abbbbd2/notebook_table_data/README.md' (1,187)
+2021-08-30 17:23:18: 覆蓋複製 'C:/Users/hi/Desktop/notebook_table_data/table_en.json' -> 'msgraph://graph.microsoft.com/:drive:910be7654abbbbd2/notebook_table_data/table_en.json' (35,301)
+2021-08-30 17:23:18: 覆蓋複製 'C:/Users/hi/Desktop/notebook_table_data/Notebook Information quick write.html' -> 'msgraph://graph.microsoft.com/:drive:910be7654abbbbd2/notebook_table_data/Notebook Information quick write.html' (11,026)
+2021-08-30 17:23:21: == 同步完成. 歷時: 00:00:18, 速度: 7.30 KB/s, 完成: 4, 錯誤: 0
