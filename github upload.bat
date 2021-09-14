@@ -2,7 +2,7 @@
 echo "DOCS PUSH BAT"
 
 echo "1. Move to working directory"
-cd C:\Users\hi\Desktop\notebook_table_data
+cd C:\Users\Admin\Desktop\notebook_table_data
 
 echo "2. Start submitting code to the local repository"
 git add *
