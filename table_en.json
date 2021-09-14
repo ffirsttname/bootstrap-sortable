@@ -2,7 +2,7 @@
   "tableData": {
      "//": "最後唔可以加逗號，未完先可以加",
      "body": [
-	{"brand": "Acer22", "model": "Swift 3x (SF314-510G)", "cpu": "i7-1165G7", "display_card": "Iris Xe MAX", "ram": "16 GB", "storage": "512/1024 GB", "screen_Size": "14 inch", "weight": "1.37 kg", "battery": "58.75 Wh", "battery_life": "17.5 hour", "evo": "N/A", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗"},
+	{"brand": "Acer11", "model": "Swift 3x (SF314-510G)", "cpu": "i7-1165G7", "display_card": "Iris Xe MAX", "ram": "16 GB", "storage": "512/1024 GB", "screen_Size": "14 inch", "weight": "1.37 kg", "battery": "58.75 Wh", "battery_life": "17.5 hour", "evo": "N/A", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗"},
 	{"brand": "Acer", "model": "Swift 3x (SF314-510G)", "cpu": "i5-1135G7", "display_card": "Iris Xe MAX", "ram": "8/16 GB", "storage": "512 GB", "screen_Size": "14 inch", "weight": "1.37 kg", "battery": "58.75 Wh", "battery_life": "17.5 hour", "evo": "N/A", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗"},
 	{"brand": "Acer", "model": "Swift X (SFX14-41G)", "cpu": "Ryzen 7 5800U", "display_card": "GeForce RTX 3050 Ti ", "ram": "16 GB", "storage": "512 GB", "screen_Size": "14 inch", "weight": "1.39 kg", "battery": "58.75 Wh", "battery_life": "17 hour", "evo": "N/A", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗"},
 	{"brand": "Acer", "model": "Swift X (SFX14-41G)", "cpu": "Ryzen 7 5700U", "display_card": "GeForce GTX 1650 ", "ram": "16 GB", "storage": "512 GB", "screen_Size": "14 inch", "weight": "1.39 kg", "battery": "58.75 Wh", "battery_life": "17 hour", "evo": "N/A", "ram_replace": "✗", "disk_replace": "✓", "battery_replace": "✗"},
