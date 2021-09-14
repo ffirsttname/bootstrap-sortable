@@ -13,7 +13,7 @@ echo "Time:" %now%
 git commit -m "%now%"
 
 echo "4. Push the changes to the remote git server"
-git pull && git push
+git pull git@github.com:ffirsttname/notebook_table_data.git&& git push git@github.com:ffirsttname/notebook_table_data.git
 
 echo "Batch execution complete!"
 pause
