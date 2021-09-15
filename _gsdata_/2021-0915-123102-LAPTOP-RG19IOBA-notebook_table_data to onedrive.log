@@ -1,0 +1,10 @@
+2021-09-15 12:31:02: Expanded 'file:///%GSDISK%/Users/Admin/Desktop/notebook_table_data' to 'file:///C:/Users/Admin/Desktop/notebook_table_data'
+2021-09-15 12:31:03: Turning Off Copy Attributes, as one of file systems does not support it
+2021-09-15 12:31:03: Turning Off Copy Symbolic Links, as one of file systems does not support it. You may want to consider using Job -> Options -> Advanced -> Links -> Drill Down, if you need to copy folder to which the link points
+2021-09-15 12:31:04: -- 分析开始 User Command
+2021-09-15 12:31:05: 右侧: State file does not exist: msgraph://graph.microsoft.com/:drive:910be7654abbbbd2/_gsdata_/_file_state_v4._gs
+2021-09-15 12:31:15: 15/9/2021 12:31:15: 暂停
+2021-09-15 12:31:18: Stop requested by Stop By User: #1
+2021-09-15 12:31:19: Show Browse Dialog for job 'notebook_table_data to onedrive'
+2021-09-15 12:31:19: Cannot Browse while job is running, waiting to run, or in Unattended mode
+2021-09-15 12:31:19: Error analyzing msgraph://graph.microsoft.com/:drive:910be7654abbbbd2: stopped by Stop By User
