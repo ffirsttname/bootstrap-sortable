@@ -1,0 +1,8 @@
+2021-09-15 12:40:43: Expanded 'file:///%GSDISK%/Users/Admin/Desktop/notebook_table_data' to 'file:///C:/Users/Admin/Desktop/notebook_table_data'
+2021-09-15 12:40:48: -- 分析开始 On File Change, After Delay
+2021-09-15 12:40:53: 变更：1， 冲突：0， 复制时间：0， 复制状态：0， 错误： 0, All: 22
+2021-09-15 12:40:53: Left to Right: Copy File: 1 
+2021-09-15 12:40:53: == 同步开始由 On File Change, After Delay
+2021-09-15 12:40:53: Start only 1 threads, limited by tasks to run
+2021-09-15 12:41:00: 覆盖复制 'C:/Users/Admin/Desktop/notebook_table_data/table_en.json' -> 'msgraph://graph.microsoft.com/:drive:910be7654abbbbd2/notebook_table_data/table_en.json' (54,847)
+2021-09-15 12:41:02: == 同步完成. 历时: 00:00:20, 速度: 3.08 KB/s, 完成: 1, 错误: 0

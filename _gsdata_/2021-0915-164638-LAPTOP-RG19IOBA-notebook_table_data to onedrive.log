@@ -1,0 +1,5 @@
+2021-09-15 16:46:38: R: File Monitoring: Cannot Connect: msgraph://graph.microsoft.com/:drive:910be7654abbbbd2/notebook_table_data: No Certificate or it does not verify (error 19): self signed certificate in certificate chain [SUBJECT] 'SN-151602100839' [ISSUER] '/CN=RuckusPKI-DeviceSubCA-1/O=Ruckus Wireless Inc./L=Sunnyvale/ST=California/C=US' [THUMBPRINT] SHA-1=A8CB8A2A092580344201731DC38D71508885B57F
+2021-09-15 16:46:39: Expanded 'file:///%GSDISK%/Users/Admin/Desktop/notebook_table_data' to 'file:///C:/Users/Admin/Desktop/notebook_table_data'
+2021-09-15 16:46:44: -- 分析开始 On File Change First Full Analyze Upon Folder Connect
+2021-09-15 16:46:50: 变更：0， 冲突：0， 复制时间：0， 复制状态：0， 错误： 0, All: 22
+2021-09-15 16:46:50: -- 分析已结束。历时 00:00:06, 速度： 3 文件/秒
