@@ -1,0 +1,10 @@
+2022-04-23 23:48:46: Waiting for 16(120) sec on verb GET: Cannot resolve IP name (bad name or no connection); name=graph.microsoft.com; port=443
+2022-04-23 23:49:03: Waiting for 30(120) sec on verb GET: Cannot resolve IP name (bad name or no connection); name=graph.microsoft.com; port=443
+2022-04-23 23:49:33: Waiting for 30(120) sec on verb GET: Cannot resolve IP name (bad name or no connection); name=graph.microsoft.com; port=443
+2022-04-24 00:04:57: Recovered the connection, continuing operations
+2022-04-24 00:04:57: R: File Monitoring: Not Available on: msgraph://graph.microsoft.com/:drive:910be7654abbbbd2/notebook_table_data
+2022-04-24 00:04:57: Expanded 'file:///%GSDISK%/Users/Admin/Desktop/notebook_table_data' to 'file:///C:/Users/Admin/Desktop/notebook_table_data'
+2022-04-24 00:04:58: On Folder Connect Monitoring started on msgraph://graph.microsoft.com/:drive:910be7654abbbbd2/notebook_table_data
+2022-04-24 00:05:00: -- 分析开始 On File Change First Full Analyze Upon Folder Connect
+2022-04-24 00:05:06: 变更：0， 冲突：0， 复制时间：0， 复制状态：0， 错误： 0, All: 22
+2022-04-24 00:05:06: -- 分析已结束。历时 00:00:06, 速度： 3 文件/秒

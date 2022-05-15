@@ -1,0 +1,14 @@
+2022-04-24 01:50:52: Waiting for 16(120) sec on verb GET: Cannot resolve IP name (bad name or no connection); name=graph.microsoft.com; port=443
+2022-04-24 01:51:09: Waiting for 30(120) sec on verb GET: Cannot resolve IP name (bad name or no connection); name=graph.microsoft.com; port=443
+2022-04-24 01:51:39: Waiting for 30(120) sec on verb GET: Cannot resolve IP name (bad name or no connection); name=graph.microsoft.com; port=443
+2022-04-24 01:52:10: Waiting for 30(120) sec on verb GET: Cannot resolve IP name (bad name or no connection); name=graph.microsoft.com; port=443
+2022-04-24 01:52:40: Waiting for 30(120) sec on verb GET: Cannot resolve IP name (bad name or no connection); name=graph.microsoft.com; port=443
+2022-04-24 01:53:11: R: File Monitoring: Cannot Connect: msgraph://graph.microsoft.com/:drive:910be7654abbbbd2/notebook_table_data: no reply after 147(120)-sec timeout on verb GET: Cannot resolve IP name (bad name or no connection); name=graph.microsoft.com; port=443
+2022-04-24 01:53:11: Expanded 'file:///%GSDISK%/Users/Admin/Desktop/notebook_table_data' to 'file:///C:/Users/Admin/Desktop/notebook_table_data'
+2022-04-24 01:53:11: Waiting for 8(120) sec on verb GET: Cannot resolve IP name (bad name or no connection); name=graph.microsoft.com; port=443
+2022-04-24 01:53:19: Waiting for 16(120) sec on verb GET: Cannot resolve IP name (bad name or no connection); name=graph.microsoft.com; port=443
+2022-04-24 01:53:35: Waiting for 30(120) sec on verb GET: Cannot resolve IP name (bad name or no connection); name=graph.microsoft.com; port=443
+2022-04-24 01:54:06: Waiting for 30(120) sec on verb GET: Cannot resolve IP name (bad name or no connection); name=graph.microsoft.com; port=443
+2022-04-24 01:54:36: Waiting for 30(120) sec on verb GET: Cannot resolve IP name (bad name or no connection); name=graph.microsoft.com; port=443
+2022-04-24 01:55:07: Waiting for 30(120) sec on verb GET: Cannot resolve IP name (bad name or no connection); name=graph.microsoft.com; port=443
+2022-04-24 01:55:37: no reply after 146(120)-sec timeout on verb GET: Cannot resolve IP name (bad name or no connection); name=graph.microsoft.com; port=443
