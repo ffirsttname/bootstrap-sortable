@@ -1,0 +1,5 @@
+2022-06-23 11:07:59: On Folder Connect Monitoring started on msgraph://graph.microsoft.com/:drive:910be7654abbbbd2/notebook_table_data
+2022-06-23 11:07:59: Expanded 'file:///%GSDISK%/Users/Admin/Desktop/notebook_table_data' to 'file:///C:/Users/Admin/Desktop/notebook_table_data'
+2022-06-23 11:08:03: -- 分析开始 On File Change First Full Analyze Upon Folder Connect
+2022-06-23 11:08:13: 变更：0， 冲突：0， 复制时间：0， 复制状态：0， 错误： 0, All: 22
+2022-06-23 11:08:13: -- 分析已结束。历时 00:00:09, 速度： 2 文件/秒
